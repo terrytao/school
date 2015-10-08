@@ -1,0 +1,21 @@
+<?php
+
+use yii\helpers\Html;
+
+/* @var $this yii\web\View */
+/* @var $model frontend\models\ResumePhoto */
+
+$this->title = 'Update Resume Photo: ' . ' ' . $model->resume_photo_id;
+$this->params['breadcrumbs'][] = ['label' => 'Resume Photos', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->resume_photo_id, 'url' => ['view', 'id' => $model->resume_photo_id]];
+$this->params['breadcrumbs'][] = 'Update';
+?>
+<div class="resume-photo-update">
+
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <?= $this->render('_form', [
+        'model' => $model,    'resume'=>$resume
+    ]) ?>
+
+</div>

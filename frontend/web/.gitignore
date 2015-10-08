@@ -1,0 +1,7 @@
+/index.php
+/index-test.php
+frontend/web/uploads/*
+frontend/web/tmp/*
+
+/frontend/web/uploads/*
+/frontend/web/tmp/*
